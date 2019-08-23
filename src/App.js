@@ -1,24 +1,16 @@
-import React from 'react';
+import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import '@fortawesome/fontawesome-free/css/all.css';
 
-function App() {
+class App extends Component{
+  render(){
   return (
-    <div className="App">
-        <div className="container">
-          <div className="row">
-            <div className="col-6">sample 1</div>
-            <div className="col-6">
-              <span>
-                <i className="fas fa-home"></i>
-              </span>
-            </div>
-          </div>
-        </div>
-    </div>
-  );
+      <React.Fragment>
+        <h3>Welcome from React App</h3>
+      </React.Fragment>
+    );
+  }
 }
 
 export default App;
